@@ -1,0 +1,124 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero2 {
+  height: 1300px;
+  // background-color: #2ac432;
+}
+.kop {
+  width: 295px;
+  height: 427px;
+  background-color: $color-first;
+}
+.kop:hover {
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+.p3 {
+  text-align: center;
+  color: $color-third;
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px;
+  padding-top: 80px;
+}
+.buttons button {
+  border-radius: 8px;
+  background-color: transparent;
+  width: 130px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  color: $color-five;
+}
+.buttons button:hover {
+  background-color: #e4d2da;
+  transition: 0.2s;
+}
+.bb1 {
+  background-color: $color-second !important;
+  color: $color-first;
+}
+.bb1:hover {
+  background-color: #e4d2da !important;
+  transition: 0.2s;
+}
+.buttons {
+  justify-content: center;
+  display: flex;
+  gap: 45px;
+  padding-top: 50px;
+}
+
+.ob2 {
+  display: flex;
+  gap: 20px;
+}
+.ob3 {
+  margin: 50px 0px 0px 0px;
+  display: flex;
+  gap: 20px;
+}
+.img1 {
+  margin: 10px 0px 0px 15px;
+}
+
+.butt {
+  border-radius: 10px;
+  color: $color-first;
+  background-color: $color-six;
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin: 198px 0px 0px -205px;
+  position: absolute;
+}
+
+.p4 {
+  color: var(--text-tittle, #1c3554);
+
+  max-width: 262.891px;
+  padding: 22px 0px 0px 22px;
+  font-family: Rubik;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.p5 {
+  color: $color-second;
+  padding: 10px 0px 0px 22px;
+  font-family: Montserrat SemiBold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.img2 {
+  padding: 10px 0px 0px 22px;
+}
+.sp1 {
+  font-size: 13px;
+  color: $color-five;
+}
+.sp2 {
+  font-size: 20px;
+  color: $color-third;
+}
+.spanlar {
+  margin: 10px 0px 0px 22px;
+}
+.btcour {
+  border-radius: 10px;
+  border: none;
+  background: var(--primary-pink, #f72585);
+  width: 280px;
+  height: 50px;
+  margin: 40px 0px 0px 450px;
+}
+.btcour:hover {
+  background-color: #b50353;
+  transition: 0.4s;
+}

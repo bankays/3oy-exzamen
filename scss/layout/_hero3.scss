@@ -1,0 +1,45 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero3 {
+  height: 1200px;
+  // background-color: aqua;
+}
+.kop2 {
+  width: 295px;
+  height: 427px;
+  background-color: #585757;
+}
+.c {
+  color: $color-first;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+  margin: 320px 0px 0px 0px;
+}
+.kop2:hover {
+  background-color: $color-five;
+}
+.ob5 {
+  display: flex;
+  gap: 20px;
+}
+.ob6 {
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+}
+.tp {
+  color: $color-third;
+
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}

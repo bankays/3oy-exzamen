@@ -1,0 +1,529 @@
+@use "../base" as *;
+@use "../components" as *;
+
+.hero1-contact {
+  //   opacity: 0.5;
+  background: var(--other-overlay-50, #515151);
+  height: 700px;
+}
+.p1-contact {
+  color: $color-first;
+  max-width: 600px;
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px;
+  padding-top: 118px;
+}
+.sp1-contact {
+  color: $color-first;
+  margin: 0px 0px 0px 10px;
+  font-size: 20px;
+}
+.sp2-contact {
+  color: $color-eee;
+  margin: 0px 0px 0px 10px;
+}
+.sp3-contact {
+  color: $color-eee;
+  margin: 0px 0px 0px 10px;
+}
+.spans {
+  margin: 30px 0px 0px 0px;
+}
+.spans2 {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+.sp5-contact {
+  color: $color-first;
+  font-size: 20px;
+  margin: 0px 0px 0px 10px;
+}
+.btn1-contact {
+  border-radius: 8px;
+  background: $color-second !important;
+  width: 160px;
+  height: 40px;
+  border: none;
+}
+.btn2-contact {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background: $color-first;
+  border: none;
+  margin: 0px 0px 0px 10px;
+}
+.buttons1-contact {
+  margin: 30px 0px 0px 0px;
+}
+//  hero2
+.bol1-contact {
+  width: 700px;
+  height: 1800px;
+  // background-color: #1c3554;
+}
+.bol2-contact {
+  width: 400px;
+  height: 790px;
+
+  margin: -1800px 0px 0px 780px;
+  position: relative;
+}
+.kotta1-contact {
+  height: 1800px;
+}
+.p2-contact {
+  color: $color-third;
+  padding-left: 30px;
+  padding-top: 15px;
+
+  /* Heading/Bold/H4 - 32px */
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  text-transform: capitalize;
+}
+.p3-contact {
+  max-width: 650px;
+  padding: 30px;
+  color: $color-sven;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.p4-contact {
+  color: $color-third;
+
+  font-family: Rubik;
+  font-size: 28px;
+  font-style: normal;
+  padding-left: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+.ketmaket1-contact {
+  max-width: 600px;
+  height: 700px;
+
+  margin: 30px 0px 0px 30px;
+}
+.kichik1-contact {
+  padding: 30px;
+  display: flex;
+}
+.kichik2-contact {
+  padding: 30px;
+  display: flex;
+  margin: -580px 0px 0px 300px;
+}
+.sp6-contact {
+  width: 200px;
+  margin: 0px 0px 0px 10px;
+}
+.sp7-contact {
+  margin: -4px 0px 0px 0px;
+}
+.kichik3-contact {
+  padding: 30px;
+  display: flex;
+  margin: 0px 0px 0px 300px;
+}
+.kichik4-contact {
+  padding: 30px;
+  display: flex;
+  margin: 0px 0px 0px 300px;
+}
+.kichik5-contact {
+  padding: 30px;
+  display: flex;
+  margin: 0px 0px 0px 300px;
+}
+.kichik6-contact {
+  padding: 30px;
+  display: flex;
+  margin: 0px 0px 0px 300px;
+}
+// list
+.requ {
+  color: $color-third;
+  padding: 30px 0px 0px 30px;
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  text-transform: capitalize;
+}
+.list1-contact {
+  width: 600px;
+  height: 328px;
+
+  margin: 20px 0px 0px 30px;
+}
+.lll {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.ov {
+  width: 100%;
+}
+.play {
+  width: 60px;
+  margin: 110px 0px 0px -230px;
+  position: absolute;
+}
+.spann {
+  color: var(--text-tittle, #1c3554);
+
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  text-transform: capitalize;
+}
+.spann2 {
+  color: var(--text-in-field, #ccc);
+
+  /* Heading/Reguler/H5 - 24px */
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  margin: 0px 0px 0px 10px;
+}
+.spansss {
+  display: flex;
+  align-items: center;
+  margin: 24px 0px 0px 32px;
+}
+
+.ppp1 {
+  color: var(--text-tittle, #1c3554);
+  width: 200px;
+  /* Heading/Medium/H5 - 24px */
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+  padding-left: 30px;
+}
+.che {
+  border-radius: 8px;
+
+  width: 100px;
+  height: 40px;
+  margin: -60px 0px 0px 290px;
+  border: none;
+  position: absolute;
+}
+.ul1 {
+  margin: 30px 0px 0px 30px;
+}
+.ul1 li {
+  padding-bottom: 15px;
+  color: var(--text-tittle, #1c3554);
+
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+.ul1 li {
+  list-style-type: none;
+}
+.add {
+  width: 330px;
+  height: 50px;
+  margin: 10px 0px 0px 30px;
+  background-color: $color-second;
+  border: none;
+  color: $color-first;
+}
+.add2 {
+  width: 330px;
+  height: 50px;
+  margin: 10px 0px 0px 30px;
+  background-color: $color-first;
+  border-color: $color-second;
+  color: $color-second;
+}
+.uzuncode5-contact {
+  width: 700px;
+  // background-color: aqua;
+  height: 900px;
+}
+.hero3-span1 {
+  color: var(--text-tittle, #1c3554);
+
+  /* Heading/Bold/H4 - 32px */
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  text-transform: capitalize;
+  padding: 20px 0px 0px 30px;
+}
+.hero3-span2 {
+  color: var(--text-tittle, #1c3554);
+
+  margin: 0px 0px 0px 150px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.pheroc1 {
+  color: var(--text-tittle, #1c3554);
+  padding: 10px 0px 0px 30px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.div1 {
+  width: 700px;
+  height: 60px;
+  background-color: #fff5f9;
+}
+.imgheroc1 {
+  margin: -25px 0px 0px 640px;
+  position: absolute;
+}
+.pheroc2 {
+  color: var(--text-tittle, #1c3554);
+  padding: 10px 0px 0px 60px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.img66 {
+  margin: 13px 0px 0px 30px;
+  position: absolute;
+}
+.imgheroc2 {
+  margin: -25px 0px 0px 640px;
+  position: absolute;
+  color: var(--text-body, #808080);
+  text-align: right;
+
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+.hero4-contact {
+  height: 600px;
+  // background-color: dodgerblue;
+}
+.uzuncode6-contact {
+  height: 600px;
+  width: 700px;
+  // background-color: cornflowerblue;
+}
+.poi {
+  color: $color-third;
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  text-transform: capitalize;
+  padding: 50px 0px 0px 30px;
+}
+.place {
+  padding: 10px 0px 0px 30px;
+}
+.arif {
+  color: $color-third;
+  margin: -330px 0px 0px 360px;
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  text-transform: capitalize;
+}
+.senior {
+  color: $color-sven;
+  margin: 10px 0px 0px 360px;
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.rating {
+  margin: 10px 0px 0px 360px;
+  width: 220px;
+}
+.lorem {
+  color: var(--text-body, #808080);
+  max-width: 280px;
+  margin: 10px 0px 0px 360px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.dss {
+  margin: 50px 0px 0px 360px;
+}
+.cour {
+  color: $color-sven;
+
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.stu {
+  margin: 0px 0px 0px 20px;
+  color: $color-sven;
+
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.uzuncode7-contact {
+  height: 300px;
+  width: 700px;
+  // background-color: cornflowerblue;
+}
+.feed {
+  color: $color-third;
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: capitalize;
+
+  padding: 20px 0px 0px 30px;
+}
+.point2 {
+  margin: 10px 0px 0px 30px;
+}
+.point {
+  color: $color-third;
+
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px;
+}
+.point3 {
+  color: $color-third;
+
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+.point5 {
+  width: 400px;
+  margin: -95px 0px 0px 170px;
+  position: absolute;
+}
+.hero5-contact {
+  height: 300px;
+}
+.uzuncode8-contact {
+  height: 900px;
+  width: 700px;
+  // background-color: cornflowerblue;
+}
+.hero6-contact {
+  height: 920px;
+}
+.rev {
+  color: $color-third;
+  padding: 20px 0px 0px 30px;
+
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+.allr {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background: var(--primary-pink, #f72585);
+  border: none;
+  position: absolute;
+  margin: -45px 0px 0px 560px;
+}
+.profile {
+  padding: 10px 0px 0px 30px;
+  width: 100%;
+}
+.bigl {
+  padding: 20px 0px 0px 30px;
+  color: var(--text-body, #808080);
+  max-width: 680px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+.more {
+  width: 700px;
+  height: 50px;
+  background-color: $color-second;
+  color: $color-first;
+  border: none;
+}
+.more:hover {
+  background-color: #6a0733;
+  transition: 0.3s;
+}
+.hero7-contact {
+  height: 1000px;
+}
+.morecor {
+  color: var(--text-tittle, #1c3554);
+  padding: 20px 0px 0px 30px;
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  text-transform: capitalize;
+}
+.div99 {
+  display: flex;
+  justify-content: space-between;
+}

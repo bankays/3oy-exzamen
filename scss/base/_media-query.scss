@@ -1,0 +1,250 @@
+body {
+  @media (max-width: 1178px) {
+    .ob2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hero2 {
+      height: 1000px;
+    }
+    .nav-links {
+      display: none;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: fixed;
+      top: 67px;
+      z-index: 9;
+      left: -100%;
+      right: 0;
+      background-color: #1c1e53;
+      padding-bottom: 20px;
+      transition: all 0.6s;
+    }
+
+    .open {
+      left: 0;
+    }
+    .menu-btn {
+      border: none;
+    }
+    .menu {
+      display: block;
+    }
+    .hero2 {
+      height: 2200px;
+    }
+    .ob3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 1101px) {
+  }
+  @media (max-width: 945px) {
+    footer {
+      height: 900px;
+    }
+    .fff {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .fff2 {
+      margin: 0px 0px 0px -120px;
+    }
+    .r5 {
+      width: 355px;
+      height: 357px;
+      margin: 300px 0px 0px 0px;
+    }
+    .p12 {
+      font-size: 30px;
+
+      font-weight: 700;
+      line-height: 63.984px;
+    }
+    .p12 {
+      margin: 0px 0px 0px 380px;
+    }
+    .p13 {
+      margin: 80px 0px 0px 380px;
+      max-width: 450px;
+
+      font-size: 14px;
+
+      font-weight: 400;
+      line-height: 27px;
+    }
+    .p14 {
+      margin: 210px 0px 0px 380px;
+      max-width: 450px;
+
+      font-size: 14px;
+
+      line-height: 27px;
+    }
+    .start {
+      margin: 320px 0px 0px 370px;
+    }
+  }
+  @media (max-width: 863px) {
+    .hama {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hero7 {
+      height: 1200px;
+    }
+    .r1 img {
+      display: none;
+    }
+    .l1 {
+    }
+    .ob5 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .ob6 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hero3 {
+      height: 2000px;
+    }
+  }
+  @media (max-width: 810px) {
+  }
+  @media (max-width: 741px) {
+    .btcour {
+      margin: 40px 0px 0px 100px;
+    }
+    .ob8 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #d {
+      padding: 20px 20px 20px 20px;
+    }
+    .hero4 {
+      height: 500px;
+    }
+    .p14 {
+      display: none;
+    }
+  }
+  @media (max-width: 630px) {
+  }
+  @media (max-width: 650px) {
+    .hero2 {
+      height: 4400px;
+    }
+    .hero3 {
+      height: 4000px;
+    }
+    .p12 {
+      margin: 440px 0px 0px 150px;
+    }
+    .p13 {
+      margin: 510px 0px 0px 150px;
+      max-width: 300px;
+    }
+    .r5 {
+      margin: 0px 0px 0px 30px;
+      width: 255px;
+      height: 257px;
+    }
+    .start {
+      margin: 720px 0px 0px 150px;
+    }
+  }
+
+  @media (max-width: 579px) {
+    .hero7 {
+      height: 1600px;
+    }
+  }
+  @media (max-width: 536px) {
+    .about3 {
+      margin: 0px 0px 0px 220px;
+    }
+    footer {
+      height: 1300px;
+    }
+    .ohir {
+      margin: 0px 0px 0px 100px;
+    }
+  }
+  @media (max-width: 500px) {
+    .p1 {
+      font-size: 20px;
+    }
+    .l1 input {
+      width: 250px;
+      height: 40px;
+    }
+    .l1 button {
+      width: 50px;
+      height: 35px;
+      margin: 0px 0px 0px -70px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 475px) {
+    .p12 {
+      margin: 300px 0px 0px 50px;
+      font-size: 20px;
+    }
+    .p13 {
+      margin: 380px 0px 0px 50px;
+      max-width: 270px;
+    }
+    .r5 {
+      margin: 0px 0px 0px 30px;
+      width: 255px;
+      height: 257px;
+    }
+    .start {
+      margin: 570px 0px 0px 30px;
+    }
+  }
+  @media (max-width: 431px) {
+    .hero4 {
+      height: 1000px;
+    }
+    .p15 {
+      max-width: 500px;
+      font-size: 16px;
+
+      line-height: 35px;
+      padding-left: 30px;
+      padding-top: 30px;
+    }
+    .trust {
+      padding: 100px 0px 0px 0px;
+      width: 100%;
+    }
+  }
+  @media (max-width: 403px) {
+    .btcour {
+      margin: 40px 0px 0px 00px;
+    }
+  }
+  @media (max-width: 390px) {
+  }
+  @media (max-width: 330px) {
+    .p15 {
+      font-size: 14px;
+    }
+  }
+}

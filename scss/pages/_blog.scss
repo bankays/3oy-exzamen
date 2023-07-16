@@ -1,0 +1,162 @@
+@use "../base" as *;
+@use "../components" as *;
+
+.hero1-blog {
+  height: 350px;
+  background: var(--other-overlay-50, #515151);
+}
+.p1-blog {
+  color: var(--text-white, #fff);
+
+  /* Heading/Bold/H2 - 64px */
+  font-family: Rubik;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px; /* 137.5% */
+  padding-top: 200px;
+}
+.hero2-blog {
+  height: 2200px;
+  // background-color: cyan;
+}
+.img1-blog {
+  max-width: 500px;
+}
+.p2-blog {
+  color: $color-third;
+
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: capitalize;
+  max-width: 500px;
+  padding-left: 60px;
+}
+.ob1-blog {
+  display: flex;
+  margin: 40px 0px 0px 0px;
+}
+.img2-blog {
+  padding: 20px 0px 0px 60px;
+}
+.p3-blog {
+  color: $color-sven;
+  max-width: 500px;
+  font-family: Montserrat;
+  padding: 20px 0px 0px 60px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.btn1-blog {
+  border-radius: 8px;
+  background: $color-second;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin: 10px 0px 0px 60px;
+}
+.btn1-blog:hover {
+  background-color: #ef7caf;
+  transition: 0.2s;
+}
+.raqam {
+  width: 300px;
+  height: 50px;
+  //   background-color: #ef7caf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.raq {
+  font-size: 30px;
+  padding-right: 30px;
+  color: $color-sven;
+}
+.q {
+  width: 20px;
+  height: 30px;
+  background-color: blue;
+}
+.raq:hover {
+  background-color: #917cef;
+}
+.imgn1-blog {
+  padding-right: 20px;
+}
+
+.buttons-end {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  margin: 40px 0px 0px 400px;
+  img {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #808080;
+    transition: 0.2s;
+    &:hover {
+      background-color: #f72585;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+button {
+  border-radius: 4px;
+  background: #fff;
+  padding: 1px 12px 1px 13px;
+  color: #000;
+  transition: 0.2s;
+  border: none;
+  color: var(--text-in-field, #ccc);
+  text-align: center;
+  font-weight: 400;
+  line-height: 32px;
+  &:hover {
+    background-color: #f72585;
+    color: white;
+  }
+}
+@media (max-width: 967px) {
+  .ob1-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  .hero2-blog {
+    height: 4000px;
+  }
+}
+@media (max-width: 724px) {
+  .buttons-end {
+    margin: 0px 0px 0px 110px;
+  }
+}
+@media (max-width: 503px) {
+  .img1-blog {
+    max-width: 300px;
+  }
+  .p1-blog {
+    font-size: 36px;
+  }
+}
+@media (max-width: 455px) {
+  .buttons-end {
+    margin: 0px 0px 0px -20px;
+  }
+}
+@media (max-width: 372px) {
+  .p2-blog {
+    font-size: 20px;
+  }
+  .p3-blog {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,61 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero1 {
+  height: 593px;
+  background-color: $color-forth;
+  margin: 65px 0px 0px 0px;
+}
+.p1 {
+  color: $color-first;
+  padding-top: 80px;
+  max-width: 400px;
+  font-family: Rubik;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+}
+.p2 {
+  color: $color-first;
+  padding-top: 15px;
+  max-width: 480px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.hero1 input {
+  width: 450px;
+  height: 60px;
+  outline: none;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  margin: 30px 0px 0px 0px;
+}
+.btn2 {
+  border-radius: 8px;
+  background: $color-second;
+  width: 100px;
+  height: 45px;
+  margin: 0px 0px 0px -110px;
+  border: none;
+}
+.btn2:hover {
+  background-color: rgb(255, 21, 243);
+  transition: 0.3s;
+}
+.ras img {
+  max-width: 160px;
+  padding-right: 40px;
+  margin: 40px 0px 0px 0px;
+}
+.ob {
+  display: flex;
+  justify-content: space-between;
+}
+.r1 img {
+  margin: 90px 0px 0px 0px;
+  height: 500px;
+}

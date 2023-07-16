@@ -1,0 +1,11 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero4 {
+  height: 300px;
+  // background-color: aqua;
+}
+.ob8 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}

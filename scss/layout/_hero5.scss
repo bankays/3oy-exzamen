@@ -1,0 +1,64 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero5 {
+  height: 1000px;
+  // background-color: aqua;
+}
+.r5 {
+  width: 555px;
+  height: 657px;
+  background-color: $color-five;
+}
+
+.p12 {
+  color: var(--text-tittle, #1c3554);
+
+  font-family: Rubik;
+  font-size: 45px;
+
+  font-weight: 700;
+  line-height: 63.984px;
+}
+.p12 {
+  margin: 120px 0px 0px 630px;
+  position: absolute;
+  max-width: 800px;
+}
+.p13 {
+  color: $color-sven;
+  margin: 230px 0px 0px 630px;
+  max-width: 450px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  position: absolute;
+}
+.p14 {
+  color: $color-sven;
+  margin: 390px 0px 0px 630px;
+  max-width: 450px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  position: absolute;
+}
+.start {
+  border-radius: 8px;
+  background: $color-second;
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin: 590px 0px 0px 630px;
+}
+.start:hover {
+  background-color: #b50353;
+  transition: 0.4s;
+}
+
+.ob11 {
+  margin: 90px 0px 0px 0px;
+}
