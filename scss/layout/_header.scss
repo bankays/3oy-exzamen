@@ -26,7 +26,8 @@
 }
 
 header {
-  background-color: $color-first;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
 }
 // header nav {
 //   display: flex;
@@ -92,16 +93,12 @@ nav {
   padding: 45px 0;
 }
 header .b1 {
-  border-radius: 8px;
-  border: 2px solid rgba(244, 246, 252, 0.2);
-  width: 70px;
-  height: 35px;
-
-  font-family: Montserrat SemiBold;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  width: 80px;
+  height: 45px;
 }
 .menu-btn {
   background: transparent;
@@ -133,39 +130,35 @@ header .b1 {
 }
 
 .dark section,
-.dark footer,
-.dark .cards,
-.dark .cen,
-.dark .card {
-  background-color: rgb(50, 50, 50) !important;
+.dark footer {
+  background-color: rgb(91, 88, 88) !important;
 }
 
-.dark .d1,
-.dark input,
-.dark .kop,
-.dark .ichida {
+.dark .con,
+.dark .new1,
+.dark .new2,
+.dark .hero9-oq,
+.dark .oq11 {
   background-color: rgb(150, 150, 150) !important;
 }
-.dark .p13,
-.dark .p14,
-.dark .p15,
-.dark .p16,
-.dark .h7,
-.dark .h77 {
-  color: white !important;
+.dark .hero1,
+.dark p {
+  color: white;
 }
 #b1 {
-  background-color: $color-second;
-  color: $color-first;
+  border-radius: 6px;
+  border: 1px solid #cf6f49;
+  background: #cf6f49;
+  width: 120px;
 }
 #b2 {
-  background-color: #bbbbcb;
+  background-color: #fff;
 }
 #b1:hover {
-  background-color: #bbbbcb;
+  background-color: #fc9d77;
   transition: 0.4s;
 }
 #b2:hover {
-  background-color: #f635bc;
+  background-color: #fc9d77;
   transition: 0.4s;
 }

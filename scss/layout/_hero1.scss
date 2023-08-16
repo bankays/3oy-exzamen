@@ -1,61 +1,63 @@
 @use "../base" as *;
 @use "../components" as *;
 .hero1 {
-  height: 593px;
-  background-color: $color-forth;
-  margin: 65px 0px 0px 0px;
+  height: 565px;
+  background-color: #e7e8e3;
 }
 .p1 {
-  color: $color-first;
-  padding-top: 80px;
-  max-width: 400px;
-  font-family: Rubik;
-  font-size: 54px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 68px;
+  margin: 160px 0px 0px 0px;
+  color: #2a2c1f;
 }
 .p2 {
-  color: $color-first;
-  padding-top: 15px;
-  max-width: 480px;
-  font-family: Montserrat;
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 67.2px;
+  max-width: 450px;
+  padding-top: 20px;
+}
+.p3 {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 450px;
+}
+.ser {
+  width: 250px;
+  height: 35px;
+  padding: 10px 10px 10px 10px;
+  outline: none;
+  margin: 20px 0px 0px 0px;
+  border-radius: 6px;
+  border: none;
+}
+.b3 {
+  border-radius: 6px;
+  border: 1px solid #cf6f49;
+  background: #cf6f49;
+  color: #fff;
+  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 30px;
+  width: 120px;
+  height: 33px;
 }
-.hero1 input {
-  width: 450px;
-  height: 60px;
-  outline: none;
-  padding: 20px;
-  border-radius: 8px;
-  border: none;
-  margin: 30px 0px 0px 0px;
+.b3:hover {
+  background-color: #fc9d77;
+  transition: 0.4s;
 }
-.btn2 {
-  border-radius: 8px;
-  background: $color-second;
-  width: 100px;
-  height: 45px;
-  margin: 0px 0px 0px -110px;
-  border: none;
+.img2 {
+  width: 500px;
+  padding: 70px 0px 0px 0px;
 }
-.btn2:hover {
-  background-color: rgb(255, 21, 243);
-  transition: 0.3s;
-}
-.ras img {
-  max-width: 160px;
-  padding-right: 40px;
-  margin: 40px 0px 0px 0px;
-}
-.ob {
+.ob1 {
   display: flex;
   justify-content: space-between;
-}
-.r1 img {
-  margin: 90px 0px 0px 0px;
-  height: 500px;
 }

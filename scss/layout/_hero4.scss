@@ -1,11 +1,87 @@
 @use "../base" as *;
 @use "../components" as *;
 .hero4 {
-  height: 300px;
+  height: 700px;
   // background-color: aqua;
 }
-.ob8 {
+.hero4-b1 {
+  width: 90px;
+  height: 30px;
+  background: #e7e8e3;
+  margin: 150px 0px 0px 0px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.hero4-b1:hover {
+  background-color: #fc9d77;
+  transition: 0.4s;
+}
+.hero4-p1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px;
+  max-width: 453px;
+  padding-top: 25px;
+}
+.hero4-p2 {
+  max-width: 520px;
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 20px;
+  line-height: 27px;
+}
+.hero4-b2 {
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 150px;
+  height: 35px;
+  margin: 20px 0px 0px 0px;
+  cursor: pointer;
+}
+.hero4-b2:hover {
+  background-color: #fc9d77;
+  transition: 0.4s;
+}
+.hero4-b3:hover {
+  background-color: #fc9d77;
+  transition: 0.4s;
+}
+.hero4-b3 {
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: transparent;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 150px;
+  height: 35px;
+  margin: 20px 0px 0px 0px;
+}
+.ob3 {
   display: flex;
   justify-content: space-between;
-  padding-top: 80px;
+}
+.img3 {
+  width: 450px;
+  margin: 100px 0px 0px 0px;
 }

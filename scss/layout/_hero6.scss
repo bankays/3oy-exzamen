@@ -1,53 +1,108 @@
 @use "../base" as *;
 @use "../components" as *;
 .hero6 {
-  height: 1200px;
+  height: 1250px;
   // background-color: aqua;
 }
-.left {
-  width: 338px;
-  height: 377px;
-  background-color: $color-five;
-}
-.ob12 {
-  padding-top: 50px;
-  display: flex;
-}
-.left img {
-  margin: 230px 0px 0px -50px;
-}
-.p15 {
-  max-width: 500px;
-  color: $color-third;
-  font-family: Rubik;
-  font-size: 26px;
+.hero6-p1 {
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 35px;
-  padding-left: 30px;
-  padding-top: 30px;
+  font-weight: 700;
+  line-height: 57.6px;
+  padding: 80px 0px 0px 0px;
 }
-.p16 {
-  color: $color-forth;
-
-  font-family: Rubik;
+.new1 {
+  width: 350px;
+  height: 390px;
+  // background-color: chartreuse;
+  margin: 50px 0px 0px 20px;
+}
+.new1:hover {
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+.ob5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img9 {
+  width: 100%;
+}
+.hero6-p2 {
+  color: #2a2c1f;
+  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  padding-top: 65px;
-  padding-left: 30px;
+  font-weight: 700;
+  line-height: 33.6px;
+  padding: 10px 0px 0px 20px;
 }
-.p17 {
-  color: $color-sven;
-  font-family: Montserrat SemiBold;
-  font-size: 14px;
+.hero6-p3 {
+  color: #2a2c1f;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 5px 0px 0px 20px;
+}
+.hero6-p4 {
+  color: #65665c;
+  font-family: Roboto;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  padding: 10px 0px 0px 30px;
+  padding: 5px 0px 0px 20px;
 }
-.trust {
-  padding: 300px 0px 0px 0px;
-  width: 100%;
+.img11 {
+  padding: 5px 0px 0px 20px;
+}
+.bts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 20px 0px 0px;
+}
+.hero6-b1 {
+  margin: 0px 20px 0px 0px;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 150px;
+  height: 35px;
+}
+.hero6-b1:hover {
+  background-color: #fc9d77;
+  transition: 0.4s;
+}
+.hero6-b2:hover {
+  background-color: #fc9d77;
+  transition: 0.4s;
+}
+.hero6-b2 {
+  margin: 0px 20px 0px 0px;
+  border-radius: 6px;
+  border: none;
+  background-color: transparent;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 150px;
+  height: 35px;
 }
